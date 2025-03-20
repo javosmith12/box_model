@@ -2,13 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .block {
     color: red;
-    border: 2px solid blue;
+    background-color: rgb(251, 227, 227);
+}
+
+#one-word {
+    color: black;
+    border: 3px solid purple;
 }
 
 .inline-block {
     display: inline-block;
+    color: white;
+    background-color: rgb(158, 77, 77);
 }
+
+.inline-block h3 {
+    background-color: rgb(79, 147, 112);
+}
+
+.inline-block.mini-2 h3 {
+    background-color: rgb(74, 21, 233);
+}
+
+.block h2 {
+    color: beige;
+    background-color: rgb(74, 155, 213);
+}
+
+.list {
+    float: left;
+}
+
+.list-item {
+    display: inline;
+    font-family: "tahoma", sans-serif;
+    color: orangered;
+}
+
+.list2 {
+    float: right;
+    list-style: none;
+    font-size: 20px;
+}
+
+.list-item2 {
+    color: rgb(195, 216, 37);
+}
+
