@@ -27,6 +27,8 @@
 
 .inline-block.mini-2 h3 {
     background-color: rgb(74, 21, 233);
+    height: 150px;
+    width: auto;
 }
 
 .block h2 {
@@ -55,7 +57,7 @@
 }
 
 .container {
-    background-color: white;
+    background-color: black;
     color: rgb(13, 240, 17);
 }
 
